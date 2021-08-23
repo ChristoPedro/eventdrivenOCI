@@ -7,8 +7,8 @@ run_image: fnproject/python:3.8
 entrypoint: /python/bin/fdk /function/func.py handler
 memory: 1024
 config:
-  destinationbucket: Destination
-  password: IpgfOK16p]q:XrQ;2[IV
-  server: cell-1.streaming.sa-saopaulo-1.oci.oraclecloud.com:9092
-  stagebucket: Standard
-  username: ladcloudengineeringhub/KafkaUser/ocid1.streampool.oc1.sa-saopaulo-1.amaaaaaakeemx2yafx6ibx4pny7vicnvza734jsa3iltxsl247h46oiqamtq
+  destinationbucket: {Bucket de destino}
+  password: {Kafka password}
+  server: {Kafka Boostrap}
+  stagebucket: {Bucket de stage}
+  username: {Kafka Username}
